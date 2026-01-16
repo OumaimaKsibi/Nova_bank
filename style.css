@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+    color: #1c1c1c;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.navbar h2 {
+    color: #183c6b;
+}
+
+.navbar nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.logo {
+    width: 40px; /* adjust size */
+    height: auto;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.download-btn {
+    padding: 16px 36px;
+    background: #183c6b;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.download-btn:hover {
+    background: #2f71c8;
+}
+
+.note {
+    display: block;
+    margin-top: 10px;
+    color: #777;
+    font-size: 14px;
+}
+
+.hero-image img {
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+    max-width: 300px; /* adjust as needed */
+    width: 100%;       /* makes it responsive */
+    height: auto;      /* preserves aspect ratio */
+}
+
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 60px;
+    background: white;
+}
+
+.features div h3 {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+}
